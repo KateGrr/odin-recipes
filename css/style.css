@@ -1,69 +1,126 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body.recipe {
+  font-family:Verdana, Tahoma, sans-serif;
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    text-align: center;
-    margin: 2rem 0;
+  font-weight: bold;
+  text-align: center;
+  margin: 2rem 0;
 }
 
 h1.main {
-    font-size: 3rem;
+  font-size: 3rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1.page {
+  font-size: 2.5rem;
+  
+}
+
+.divider {
+  width: 220px;
+  height: 7px;
+  background: #F9BF3B;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+p.variations {
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-style: normal;
+}
+
+div.descr {
+  font-style: italic;
 }
 
 div.image {
-    text-align: center;
-    margin: 2rem;
-}
-img {
-    width: 350px;
+  text-align: center;
+  margin: 1rem;
 }
 
-div.intro {   
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    width: 750px;
-    border-top: 2px ridge #097b33;
-    border-image: linear-gradient(45deg, #FFFFFF, rgb(22, 117, 92)) 10;
-    padding-top: 1rem;
-    margin: 3rem auto;
+img {
+  width: 350px;
+}
+
+div.intro {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  width: 750px;
+  border-top: 2px ridge #097b33;
+  border-image: linear-gradient(45deg, #FFFFFF, rgb(22, 117, 92)) 10;
+  padding-top: 1rem;
+  margin: 3rem auto;
 }
 
 nav {
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
 
 a:link {
-    color: rgb(22, 117, 92);
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    color: rgb(108, 160, 146);
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: #abd2b9;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
-  a:active {
-    color: rgb(174, 112, 162);
-    background-color: transparent;
-    text-decoration: underline;
-  }
+  color: rgb(22, 117, 92);
+  background-color: transparent;
+  text-decoration: none;
+}
 
-  img.leftimg {
-    float: left;
-    margin: 10px 20px 0 10px;
-  }
+a:visited {
+  color: rgb(108, 160, 146);
+  background-color: transparent;
+  text-decoration: none;
+}
 
+a:hover {
+  color: #abd2b9;
+  background-color: transparent;
+  /* text-decoration: underline; */
+}
+
+a:active {
+  color: rgb(174, 112, 162);
+  background-color: transparent;
+  /* text-decoration: underline; */
+}
+
+img.leftimg {
+  float: left;
+  margin: 0em 2em 0em 0em;
+}
+
+div.head {
+  width: fit-content;
+  margin: 0;
+}
+
+img.logo {
+  width: 30px;
+}
+
+span.home {
+  float: right;
+  margin: 0.5em 0.2em;
+}
+
+section.main {
+  min-height: 550px;
+  width: fit-content;
+  margin: 3em;
+}
+
+p.footer {
+  float: right;
+  margin-right: 3rem;
+}
