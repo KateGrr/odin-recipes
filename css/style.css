@@ -10,25 +10,29 @@ body.recipe {
 h1 {
   font-weight: bold;
   text-align: center;
-  margin: 2rem 0;
 }
 
 h1.main {
   font-size: 3rem;
   font-family: 'Courier New', Courier, monospace;
+  margin: 2rem 0;
 }
 
 h1.page {
   font-size: 2.5rem;
-  
+}
+
+p.under-h1 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .divider {
   width: 220px;
   height: 7px;
   background: #F9BF3B;
-  margin: 0 auto;
-  margin-top: 15px;
+  margin: 15px auto;
 }
 
 p.variations {
@@ -37,7 +41,7 @@ p.variations {
 }
 
 h2 {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
   font-style: normal;
 }
@@ -84,25 +88,27 @@ a:visited {
 }
 
 a:hover {
-  color: #abd2b9;
+  /* color: #abd2b9; */
+  color: #F9BF3B;
   background-color: transparent;
   /* text-decoration: underline; */
 }
 
 a:active {
-  color: rgb(174, 112, 162);
+  color: rgb(222, 157, 37);
   background-color: transparent;
-  /* text-decoration: underline; */
 }
 
 img.leftimg {
   float: left;
   margin: 0em 2em 0em 0em;
+  border: #F9BF3B solid 2px;
+  padding: 0.5rem;
 }
 
 div.head {
   width: fit-content;
-  margin: 0;
+  margin: 0.5rem;
 }
 
 img.logo {
@@ -112,6 +118,7 @@ img.logo {
 span.home {
   float: right;
   margin: 0.5em 0.2em;
+  font-weight: 900;
 }
 
 section.main {
@@ -120,7 +127,7 @@ section.main {
   margin: 3em;
 }
 
-p.footer {
+p.source {
   float: right;
-  margin-right: 3rem;
+  margin-right: 0.5rem;
 }
