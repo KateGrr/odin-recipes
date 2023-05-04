@@ -111,13 +111,18 @@ div.head {
   margin: 0.5rem;
 }
 
+img.main-logo {
+  width: 50px;
+}
+
 img.logo {
-  width: 30px;
+  width: 40px;
 }
 
 span.home {
   float: right;
-  margin: 0.5em 0.2em;
+  margin: 0.75rem 0.2em;
+  font-size: 1rem;
   font-weight: 900;
 }
 
