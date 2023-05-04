@@ -111,9 +111,9 @@ div.head {
   margin: 0.5rem;
 }
 
-img.main-logo {
-  width: 50px;
-}
+div.main-logo {
+  margin: 0.5rem;
+} 
 
 img.logo {
   width: 40px;
